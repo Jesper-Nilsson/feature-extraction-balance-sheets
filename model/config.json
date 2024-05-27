@@ -1,0 +1,43 @@
+{
+  "_name_or_path": "KB/bert-base-swedish-cased-ner",
+  "_num_labels": 14,
+  "architectures": [
+    "BertForTokenClassification"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "O",
+    "1": "ASSET",
+    "2": "DEBT",
+    "3": "EQUITY",
+    "4": "DEPOSIT",
+    "5": "MISC"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "ASSET": 1,
+    "DEBT": 2,
+    "DEPOSIT": 4,
+    "EQUITY": 3,
+    "MISC": 5,
+    "O": 0
+  },
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "output_past": true,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "torch_dtype": "float32",
+  "transformers_version": "4.39.1",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 50325
+}
